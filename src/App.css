@@ -1,5 +1,62 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+@import url('http://fonts.googleapis.com/css?family=Lobster');
+@import url('http://fonts.googleapis.com/css?family=Festive');
+@import url('http://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+@import url('http://fonts.googleapis.com/css?family=Goblin+One');
+@import url('http://fonts.googleapis.com/css?family=Concert+One');
+@import url('http://fonts.googleapis.com/css?family=Rowdies');
+
 body {
-    background-color: #222930;
-    /*font-family: 'Lobster', sans-serif;*/
-    color: white;
+    background-color: #2A0001;
+    color: #FFFDD1;
+}
+
+.font-site-name {
+    font-family: 'Festive', "Noto Serif Ahom";
+    color: #FFFDD1;
+}
+
+.welcome-heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.welcome-content {
+    border: 2px white;
+    margin: 5px;
+    text-align: justify;
+    padding: 8px;
+}
+
+.font-game-name {
+    font-family: 'Rowdies', "Helvetica Neue", sans-serif;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.font-game-value {
+    font-family: "Goblin One", 'Mountains of Christmas','Festive',  serif;
+}
+
+.font-free-key {
+    font-family: "Concert One", "Segoe UI";
+
+}
+
+.font-free-value {
+    font-family: "Goblin One", "Segoe UI";
+
+}
+
+.cards {
+    /*background-color: red;*/
+    margin: 1.5rem;
+    padding: 3px;
+    color: #2A0001;
+}
+
+.card {
+    padding: 1rem;
+    background-color: #FFFDD1;
 }
